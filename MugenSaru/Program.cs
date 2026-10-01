@@ -10,6 +10,8 @@ namespace MugenSaru
     {
         static void Main()
         {
+            var stopwatch = new System.Diagnostics.Stopwatch();
+            stopwatch.Start();
             // Mutation rate
             float mutationRate = 0.01f;
             // Population size
@@ -48,6 +50,8 @@ namespace MugenSaru
                 {
                     Console.WriteLine();
                     Console.WriteLine();
+                    stopwatch.Stop();
+                    Console.WriteLine($"Time taken: {stopwatch.ElapsedMilliseconds} ms");
                     Console.WriteLine($"Target reached in {generation} generations.");
                     break;
                 }
