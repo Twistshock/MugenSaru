@@ -16,10 +16,11 @@ namespace MugenSaru
                 this.genes[i] = randomCharacter();
             }
         }
+        // Generate a random character from the ASCII range 32-126
         public static char randomCharacter()
         {
             int c = Random.Shared.Next(32, 127);
-            return (char)c;
+            return (char)c; //Return the char
         }
 
         public void calculateFitness(char[] target)

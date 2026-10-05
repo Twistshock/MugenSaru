@@ -15,7 +15,7 @@ namespace MugenSaru
             // Mutation rate
             float mutationRate = 0.01f;
             // Population size
-            int populationSize = 150;
+            int populationSize = 80;
             // Target phrase
             string target = "to be or not to be";
             char[] targetGenes = target.ToCharArray();
