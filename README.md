@@ -1,1 +1,1 @@
-Daniel Shiffman's infinite monkey exercise, but rewritten in C# and outputting the result in the terminal.
+Daniel Shiffman's evolutionary algorithm infinite monkey exercise, but rewritten in C# and outputting the result in the terminal.
