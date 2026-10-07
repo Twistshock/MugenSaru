@@ -1,0 +1,1 @@
+Daniel Shiffman's infinite monkey exercise, but rewritten in C# and outputting the result in the terminal.
